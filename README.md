@@ -8,4 +8,4 @@ Currently, It's Not Verified Yet. You Can Verify it and Fix the Bug.
 This Submodule will Be Used on My Designs.
 
 ## TODO
-- [ ] The Design is Not Pre-Verified Yet... Verify it
+- [ ] The Design is Not Pre-Verified Yet... Anyone Can Verify it
