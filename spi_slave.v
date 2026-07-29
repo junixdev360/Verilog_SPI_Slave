@@ -19,7 +19,7 @@ module spi_slave (
 	reg [7:0] r_tx_shift;
 	reg [2:0] r_bit_cnt;
 	
-	wire w_cs_active = -r_cs_sync[1];
+	wire w_cs_active = !r_cs_sync[1];
 	wire w_sck_rising = (r_sck_sync[1] && !r_sck_sync[2]);
 	wire w_sck_falling = (!r_sck_sync[1] && r_sck_sync[2]);
 	
