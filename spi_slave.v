@@ -5,7 +5,7 @@ module spi_slave (
 	input wire spi_csn,
 	input wire spi_sck,
 	input wire mosi,
-	output reg miso,
+	output wire miso,
 	input wire [7:0] in_txbits,
 	output reg [7:0] out_rxbits,
 	output reg out_rx_done
