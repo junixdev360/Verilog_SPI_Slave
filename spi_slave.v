@@ -27,7 +27,7 @@ module spi_slave (
 		if (!nrst) begin
 			r_cs_sync <= 3'b111;
 			r_sck_sync <= 3'b000;
-			r_mosi_Sync <= 2'b00;
+			r_mosi_sync <= 2'b00;
 		end else begin
 			r_cs_sync <= {r_cs_sync[1:0], spi_csn};
 			r_sck_sync <= {r_sck_sync[1:0], spi_sck};
