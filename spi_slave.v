@@ -31,7 +31,7 @@ module spi_slave (
 		end else begin
 			r_cs_sync <= {r_cs_sync[1:0], spi_csn};
 			r_sck_sync <= {r_sck_sync[1:0], spi_sck};
-			r_mosi_Sync <= {r_mosi_sync[0], mosi};
+			r_mosi_sync <= {r_mosi_sync[0], mosi};
 		end
 	end
 	
