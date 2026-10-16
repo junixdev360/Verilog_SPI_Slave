@@ -1,9 +1,8 @@
 # Verilog_SPI_Slave
 SPI Slave on Verilog
 
-This is a Submodule For Any Chips with SPI Interface.
-
-Currently, It's Not Verified Yet. You Can Verify it and Fix the Bug.
+## What is SPI?
+SPI Stands For Serial Peripheral Interface, Which has 4 Wires: "Clock" (Not Mean the Clock, But The Square Wave Oscillating Around the Serial Data.), Master In/Slalve Out, Master Out/Slave In, Chip Select (When The Pin is Low, It Means It's Active. It Defines It's Communicating To The Specific Device.).
 
 This Submodule will Be Used on My Designs.
 
